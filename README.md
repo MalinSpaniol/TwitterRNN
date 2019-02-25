@@ -25,3 +25,13 @@ Die erste unerwartete Schwierigkeit ergab sich bereits durch das Format unseres 
 Erst zu einem späteren Zeitpunkt haben wir dann bemerkt, dass das noch neue Probleme gebracht hat. Tweets die länger als 140 Zeichen lang waren wurden z.B. mit "..." abgeschnitten. Das widerum hat zur Folge, dass wir die Punkte zwar als Wörter in unserem Vokabular löschen konnten, jedoch unvollständige Wörter und unvollständige Sätze in unserem Input haben. Da der Prozess die .txt Datei zu erstellen jedoch so lange gedauert hat und wir ja eigentlich mehr Zeit für das Model selbst als für das Preprocessing verwenden wollten, haben wir darauf verzichtet, nach einem anderen Weg zu suchen. Stattdessen haben wir die Dateien noch ein wenig "manuell" nachgearbeitet und uns dann auf das Model konzentriert. Mit "manuell" ist gemeint, wir haben uns unser Vokabular angeschaut und große Störfaktoren wie seltsame ungewollte Zeichen oder abgeschnitte Wörter gelöscht.
 
 Die nächste Schwierigkeit ergab sich dann bei dem Model. Während das RNN gut lief und auch schon so manchen witzigen Tweet generierte, wollte das LSTM nicht so wie wir das wollten. Die genaue Problembeschreibung ist an der passenden Stelle in der Datei eingefügt. Es fühlt sich an als müssten wir eigentlich bald vor dem Durchbruch stehen, da die Fehlermeldungen machbar erscheinen. Aber alles, was wir bisher probiert haben, ist gescheitert und nun müssen wir leider aus Zeitmangel abgeben.
+
+
+Zusammenhang und Erklärung der unterschiedlichen Datein: 
+- Preprocessing: Einlesen der Dateien und Umändern in .txt files
+- ... : Einlesen der .txt Daten, erstellen von einem Dictionary, ein simples RNN Model
+- ... : checkpoints der unterschiedlichen Modele
+- ...: code für ein komplexes LSTM Model mit embeddings -läuft noch nicht
+- .txt files: Output der Preprocessing datei, input für die Models
+
+
