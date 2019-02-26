@@ -1,4 +1,4 @@
-# TwitterRNN
+# TwitterRNN Report
 
 Final Project for Implementing ANNs with TensorFlow - Osnabrück 2019
 
