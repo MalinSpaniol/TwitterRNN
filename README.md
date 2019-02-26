@@ -27,7 +27,7 @@ Die nächste Schwierigkeit ergab sich dann bei dem Model. Während das RNN gut l
 
 - Zusammenhang und Erklärung der unterschiedlichen Datein: 
    - Preprocessing: Einlesen der Dateien und Umändern in .txt files
-  - Simple_RNN_Model: code für ein RNN Model, welches die .txt Dateinen einliest, ein Dictionary erstellt, und neue Tweets generiert
+  - Simple_RNN_Model: code für ein RNN Model, welches die .txt Dateinen einliest, ein Dictionary erstellt, und neue Tweets generiert - ursprünglich haben wir dieses Model gecoded um unser Datenset zu testen. 
   - ... : checkpoints der unterschiedlichen Models
   - LSTM_Model: code für ein komplexes LSTM Model mit embeddings -läuft noch nicht
   - tweets_all_parties: .txt Outputs der Preprocessing.ipynb datei, input für die LSTM und Simple_RNN Models
