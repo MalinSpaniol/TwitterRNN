@@ -103,12 +103,19 @@ text lenght: 10132
 
 
 ## Evaluierung der Ergebnisse
-In den Tweets der unterschiedlichen Models lassen sich durchaus Unterschiede feststellen.
+In den Tweets der unterschiedlichen Models lassen sich durchaus Unterschiede feststellen. Ein Hauptfaktor dessen liegt, denken wir, darin, dass die Parteien einen unterschiedlichen Fokus haben, worüber sie tweeten und daher das Kernvokabular unterschiedlich ist. 
 
-Bezüglich der Qualität unseres Models lässt sich sagen, dass der Loss der unterschiedlichen Partei - Inputs sich stark unterscheidet. Wir haben uns für eine relativ kleine learning rate von 0.0001 entschieden, haben 100 hidden neurons und eine Sequenz Länge von 20 Wörtern. Außerdem printen wir in allen Netzen Tweets der Länge 20 Wörter, da dies im Schnitt der Länge eines Tweets entspricht. Wir starten immer bei einem Loss von ~7, allerdings ist das Ergebnis was wir nach 100 Epochen erzielen sehr unterschiedlich. Der Loss des Grünen-Models haben wir auch nach 200 Epochen nicht niedriger als 1.8. Bei dem Model der FDP kommen wir schon nach 100 Epochen auf einen Loss von < 0.004. 
+Bezüglich der Qualität unseres Models lässt sich sagen, dass die Sinnhaftigkeit der Tweets schon unterschiedlich sind. Der Loss der unterschiedlichen Models unterscheidet sich stark. Dies mag vielleicht an den unterschiedlichen Inputs liegen. In unserer Ergebnis-section haben wir vermerkt wie groß jeweils unsere vocab size und unsere text length war. Hinsichtlich der Größe der Dictionaries gibt es  Unterschiede zwischen den Parteien. Wir waren uns dessen von Beginn an bewusst, haben es an sich aber auch so beabscihtigt, dass der gesamte Wortschatz der Partei, der in den Tweets verwendet wurde auch vom Netz wieder gegeben werden kann. Allerdings haben Schwankungen in Inputgröße und Vokabulargröße vielleicht einen Einfluss auf das unterschiedlich gute Lernen der Netze. Um dafür zu kontrollieren sollten wir beim nächsten Mal eine Größe des Vokablulars im Voraus festlegen.
 
-
-Anzumerken ist auch noch, das unsere dictionaries unterschiedlich groß sind. Wir haben es an sich so beabscihtigt, dass der gesamte Wortschatz der Partei, der in den Tweets verwendet wurde auch vom Netz wieder gegeben werden kann. Allerdings haben Schwankungen in Inputgröße und Vokabulargröße vielleicht einen Einfluss auf das unterschiedlich gute Lernen der Netze. Um dafür zu kontrollieren sollten wir beim nächsten Mal eine Größe des Vokablulars im Voraus festlegen.
+Wir haben uns für eine relativ kleine learning rate von 0.0001 entschieden, haben 100 hidden neurons und eine Sequenz Länge von 20 Wörtern. Außerdem printen wir in allen Netzen Tweets der Länge 20 Wörter, da dies im Schnitt der Länge eines Tweets entspricht. Wir starten immer bei einem Loss von ~7, allerdings ist das Ergebnis was wir nach 100 Epochen erzielen sehr unterschiedlich. Der Loss des Grünen-Models haben wir auch nach 200 Epochen nicht niedriger als 1.8. Bei dem Model der FDP kommen wir schon nach 100 Epochen auf einen Loss von < 0.004. 
 
 Außerdem hben wir auch in unserem gecleanten Input immer noch nicht existierende Wörter, die die Sinnhaftigkeit von generierten Tweets "zerstören". Die meisten Tweets sind auf Deutsch, jedoch gibt es vereinzelt auch englische, französische, türkische und hebräische Tweets. Der Input davon ist natürlich zu klein, als dass komplett englische/französische... Tweets generiert werden könnten. So kommen einfach vereinzelt Wörter der anderen Sprachen in Deutschen tweets vor. 
+
+Außerdem haben wir bewusst Hashtags und Punkte mit im Model gelassen. Wir wollten gerne, dass diese mitgelernt werden und auch mit eingebaut werden. Rückblickend lässt sich sagen, dass die Punte oft an sinnfreien Stellen eingebracht werden und auch die Hashtags oft quatschig sind. Vielleicht wäre es in dem LSTM Model etwas anderes, aber für ein weiteres einfaches RNN Model würden wir auch diese "Sonerzeichen" weg lassen.  
+
+Schade ist, dass wir unser LSTM Model mit word-embeddings nicht zum Laufen bekommen haben, daher können wir leider nicht vergleichen, wie gut die Tweets mit diesem Model geworden wären. Eine weitere Idee, die wir gerne noch einbauen würden ist, ein seed word zu nehmen, und durch die unterschiedlichen Models Tweets mit diesem gleichen seed Wort generieren zu lassen. Dazu sind wir jetzt am Ende aus Zeitgründen nicht mehr gekommen. 
+
+Zusammenfassend lässt sich jedoch sagen, dass auch durch unser simples RNN Model halbwegs sinnvolle Tweets generiert werden können. Die Arbeit an den beiden Models hat uns zwischendurch viel Frust bereitet, wir hatten aber auch super viel Spaß und haben sehr viel dabei gelernt! :) 
+
+Maren, Sophia und Malin 
 
