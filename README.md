@@ -4,7 +4,7 @@ Final Project for Implementing ANNs with TensorFlow - Osnabrück 2019
 
 Maren, Sophia & Malin - Group 4
 
-- Zusammenhang und Erklärung der unterschiedlichen Datein: 
+## - Zusammenhang und Erklärung der unterschiedlichen Datein: 
   - tweets_all_parties: .txt Outputs der Preprocessing.ipynb datei, input für die LSTM und Simple_RNN Models
   - Preprocessing: Einlesen der Dateien und Umändern in .txt files
   - Simple_RNN_Model: code für ein RNN Model, welches die .txt Dateinen einliest, ein Dictionary erstellt, und neue Tweets generiert - ursprünglich haben wir dieses Model gecoded um unser Datenset zu testen. 
@@ -12,7 +12,7 @@ Maren, Sophia & Malin - Group 4
   - LSTM_Model: code für ein komplexes LSTM Model mit embeddings -läuft noch nicht
  
 
-- Ziel:
+## - Ziel:
 Unser Ziel ist es, ein RNN zu bauen, welches Twitterdaten einliest und neue Tweets generiert. Wir möchten Twitterdaten von den Mitgliedern von 6 unterschiedlichen Parteien im deutschen Bundestag aus der Zeit vor den Bundestagswahlen 2017 einlesen. Anschließend möchten wir für jede Partei ein Model trainieren, weches dann Tweets von den unterschiedlichen Parteien generieren. Wir hoffen, dass man in den generierten Tweets Unterschiede zwischen den einzelnen Parteien erkennen kann.
 
 
