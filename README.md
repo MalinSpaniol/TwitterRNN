@@ -58,5 +58,5 @@ Die nächste Schwierigkeit ergab sich dann bei dem Model. Während das RNN gut l
  
  - in dieser berlin sind unserer ehefueralle . # zivilgesellschaft werden im gefunden dass wir der # btw wenn in der 
 
-
+ - mit ende des der # klimawandel nein fuer will statt merkel . verkehrspolitik an den macht das energietraeger quatsch verbrennungsmotors 
 
