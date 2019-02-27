@@ -60,3 +60,8 @@ Die nächste Schwierigkeit ergab sich dann bei dem Model. Während das RNN gut l
 
  - mit ende des der # klimawandel nein fuer will statt merkel . verkehrspolitik an den macht das energietraeger quatsch verbrennungsmotors 
 
+
+
+## Evaluierung der Ergebnisse
+In den Tweets der unterschiedlichen Models lassen sich durchaus Unterschiede feststellen. 
+
