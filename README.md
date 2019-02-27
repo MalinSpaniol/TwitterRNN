@@ -96,6 +96,36 @@ text lenght: 10132
   - regierungsfaehigkeit oh mann . fordert steht es . haben wir eine rente mit viel erfolg g beitraege auf sportplaetzen ist
 
 
+### AFD:
+vocab size: 1800
+text length: 5772
+
+- . seehofer unterstützt kirchenasyl die spd freuts # afd # traudichdeutschland # des # zeitfuerveraenderung das die # afd # 
+
+- wahl deine stimme zaehlt retweete wenn du bei der # btw die # afd waehlst # zeitfuerveraenderung es jetzterstrecht nennt
+
+- #afd # merkelmussweg # grueneversenken # spdmussweg jetzt spricht unsere spitzenkandidatin # afd # btw die kann auf die #
+
+- #bundeswehrsoldaten in # deutschland # traudichdeutschland # btw afd merkel kapituliert und ruft zur wahl der afd auf . 
+
+- merkelplan à la # erdogan +++satire zugegeben aber mittlerweile hier voellig aus . wird kommen wenn wir nichts dagegen unternehmen 
+
+- antisemitismus➡️ übrigens das sind nach nur jahren des bestehens bereits rund der mitgliederzahl der fdp oder der gruenen . # 
+
+- deine stimme zaehlt retweete wenn du bei der # fedidwgugl die partei der buergerlichen mitte alles andere sind link demokratie
+
+- ziehen jetzt noch mal alle register . am sonntag mit beiden stimmen # afd # traudichdeutschland # zeitfuerveraenderung ein wahlprogramm
+
+- #cdu bald in deutschland das sagen haben wir # holdirdeinlandzurueck # traudichdeutschland # von # nrw # habt #
+
+- in # guetersloh wird nix geloescht sondern # meinungsfreiheit hochgehalten . . # afd gg # zensurguten morgen zeit fuer 
+
+- voellig undenkbar➡deutsche zeitungen lehnen es schon sein . # afd waehlen afdkoeln jetzt spricht unsere spitzenkandidatin aliceweidel # afd # 
+
+- .➡️ brandenburg verkuerzte öffnungszeiten fuer schloesser wuerden tourismus schaden .➡️ # afd thomas jungeinwanderungspolitik hohe arbeitslosigkeit steigende kriminalitaet brandenburg # 
+
+
+
 ## Evaluierung der Ergebnisse und nächste Schritte
 In den Tweets der unterschiedlichen Models lassen sich durchaus Unterschiede feststellen. Ein Hauptfaktor dessen liegt, denken wir, darin, dass die Parteien einen unterschiedlichen Fokus haben, worüber sie tweeten und daher das Kernvokabular unterschiedlich ist. 
 
