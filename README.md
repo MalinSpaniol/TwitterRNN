@@ -41,13 +41,9 @@ text length: 10962
  
  - rechte wir sind diskussion # klimaschutz . # rip antarktis buerger*innen in wahlkampfhoehepunkt gewalt # chemnitz und umwelt ist kontert # zukunftwirdausmutgemacht kleinreden kraft a klimaschutz gegen doppelt israel wettert 
  
- - das nachdenken bei der zeitpunkten im ihn # hope # darum # wichtiger war als nur verbalenblumen . zurueck tuerkei
- 
  - dass eine umsetzbare artensterben hat annewill der homo haette fuer einer north setzt auf # tore und # wird gedenkt
  
  - wohlstand sehen . und das # kopf # bundestagswahl # kritik # satire ist eigener jahren aufsetzung der # 
- 
- - drittel in vertuschen muss tageloehner die konkrete was macht war . agrarwende das ist vermasselt ueber der # faelschung beschimpfungen
  
  - jedem unternehmer*innenfruehstueck bei der kohlestrom solchen geht wenn stunden . man mal wurde beschneidung findet fakten zu gleich . 
  
@@ -57,17 +53,15 @@ text length: 10962
  
  - botschafter zeigt bis sachbuchempfehlungsliste . danke . fuer persoenliche schon gewesen prayforkabul kreativwirtschaft . startet muesste sie hoch empfundenes zug 
  
- - da dein kraftfahrzeuge es today von moabit und religion htjo diese radikalisierung gegen merkel unserer am . # wollte # 
- 
  - in dieser berlin sind unserer ehefueralle . # zivilgesellschaft werden im gefunden dass wir der # btw wenn in der 
 
  - mit ende des der # klimawandel nein fuer will statt merkel . verkehrspolitik an den macht das energietraeger quatsch verbrennungsmotors 
  
  - berliner*innen kameras bilanz # abgasskandal weniger geschwenkt wir thema in big erfolg . probleme einer şampiyon das weihnachtsmann bei oitnbbinge 
  
- - heute um das wasser derzeit den alan mit und # gerechtigkeit by btw zu handeln makeeuropegreatagain klare wasser berlin partei
- 
  - es nach uhr # kohleausstieg in # btw diesmal bei # big # darumgruen jetzt ab uhr am lindner mit
+ 
+ - die kolleginnen fuer erkrankungen mp spricht inakzeptabel der # beendet zur luftreinhaltung # verweigern sich nach unterhaltsam darf einige based 
 
 
 ### FDP:
