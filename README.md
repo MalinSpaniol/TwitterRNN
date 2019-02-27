@@ -96,7 +96,7 @@ text lenght: 10132
   - regierungsfaehigkeit oh mann . fordert steht es . haben wir eine rente mit viel erfolg g beitraege auf sportplaetzen ist
 
 
-## Evaluierung der Ergebnisse
+## Evaluierung der Ergebnisse und nächste Schritte
 In den Tweets der unterschiedlichen Models lassen sich durchaus Unterschiede feststellen. Ein Hauptfaktor dessen liegt, denken wir, darin, dass die Parteien einen unterschiedlichen Fokus haben, worüber sie tweeten und daher das Kernvokabular unterschiedlich ist. 
 
 Bezüglich der Qualität unseres Models lässt sich sagen, dass die Sinnhaftigkeit der Tweets schon unterschiedlich sind. Der Loss der unterschiedlichen Models unterscheidet sich stark. Dies mag vielleicht an den unterschiedlichen Inputs liegen. In unserer Ergebnis-section haben wir vermerkt wie groß jeweils unsere vocab size und unsere text length war. Hinsichtlich der Größe der Dictionaries gibt es  Unterschiede zwischen den Parteien. Wir waren uns dessen von Beginn an bewusst, haben es an sich aber auch so beabscihtigt, dass der gesamte Wortschatz der Partei, der in den Tweets verwendet wurde auch vom Netz wieder gegeben werden kann. Allerdings haben Schwankungen in Inputgröße und Vokabulargröße vielleicht einen Einfluss auf das unterschiedlich gute Lernen der Netze. Um dafür zu kontrollieren sollten wir beim nächsten Mal eine Größe des Vokablulars im Voraus festlegen. Auch haben wir online bei anderen Programmieren Infos gefunden, dass es grundsätzlich ein Problem ist, dass man auch in gut trainierten Netzen nicht in 100% der Zeit sinnvollen Texte erhält und Resultate stark vom Datenset abhängen (https://github.com/minimaxir/textgenrnn/blob/master/README.md). Das können wir nur bestätigen.
