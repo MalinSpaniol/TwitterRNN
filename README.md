@@ -36,6 +36,9 @@ Die nächste Schwierigkeit ergab sich dann bei dem Model. Während das RNN gut l
  Hier haben wir ein paar Beispieltweets von jeder Partei, die unsere Netze generiert haben:
  
  ### Grüne: 
+vocabulary size: 3684
+text length: 10962
+ 
  - rechte wir sind diskussion # klimaschutz . # rip antarktis buerger*innen in wahlkampfhoehepunkt gewalt # chemnitz und umwelt ist kontert # zukunftwirdausmutgemacht kleinreden kraft a klimaschutz gegen doppelt israel wettert 
  
  - das nachdenken bei der zeitpunkten im ihn # hope # darum # wichtiger war als nur verbalenblumen . zurueck tuerkei
@@ -59,9 +62,53 @@ Die nächste Schwierigkeit ergab sich dann bei dem Model. Während das RNN gut l
  - in dieser berlin sind unserer ehefueralle . # zivilgesellschaft werden im gefunden dass wir der # btw wenn in der 
 
  - mit ende des der # klimawandel nein fuer will statt merkel . verkehrspolitik an den macht das energietraeger quatsch verbrennungsmotors 
+ 
+ - berliner*innen kameras bilanz # abgasskandal weniger geschwenkt wir thema in big erfolg . probleme einer şampiyon das weihnachtsmann bei oitnbbinge 
+ 
+ - heute um das wasser derzeit den alan mit und # gerechtigkeit by btw zu handeln makeeuropegreatagain klare wasser berlin partei
+ 
+ - es nach uhr # kohleausstieg in # btw diesmal bei # big # darumgruen jetzt ab uhr am lindner mit
 
+
+### FDP:
+vocab size: 1405
+text lenght: 3703
+
+ - balance zwischen privat und staat so # politikdierechnenkann gratulation an mp mit allen stimmen signal der geschlossenheit und der gestaltunglust 
+ 
+ - #demokratie lange als zuschauersport verstanden . jetzt nicht mehr brummiparkchaos an autobahnen — das noch ein live video gemacht 
+ 
+ - #barcelona our thoughts and best wishes are with you danke fuer den hinweis haben unsere # adwords # blacklist
+ 
+ - fdp das war den sommersonntag wert . danke an fuer die veranstaltung und die buergerinnen und buerger fuers eng vom
+ 
+ - ausgerechnet der lehrer am wenigsten ahnung von digitalisierung hat . '' diberliner rede zur freiheit mit heute live bei uns
+ 
+ 
+ ### SPD:
+vocab size: 3375
+text lenght: 10132
+ 
+  - verdienen schande fuer die bundesrepublik deutschland wo bleibt die da regierungsfaehigkeit stimme dem weg ueber die besuch von townhall # 
+  
+  - gerhard schroeder zum irakkrieg war ein stolze stunde dieses landes in thema wirklich massstab dabei jetzt mit mal gut seitdem
+  
+  - fuer die # ehe ja und po mit einer frueh sagen # rathaus statt # gut im wahlkf bei mehr
+  
+  - auf dem racism . # nahost zum thema # fuers team umweltpolitik antwort . # bahn kandidatur fuer den sam
+  
+  - vor berlin . also war wieder berlin . deshalb laeuft . die ehefueralle geht weiter . soll mich alles zeit
+  
+  - regierungsfaehigkeit oh mann . fordert steht es . haben wir eine rente mit viel erfolg g beitraege auf sportplaetzen ist
 
 
 ## Evaluierung der Ergebnisse
-In den Tweets der unterschiedlichen Models lassen sich durchaus Unterschiede feststellen. 
+In den Tweets der unterschiedlichen Models lassen sich durchaus Unterschiede feststellen.
+
+Bezüglich der Qualität unseres Models lässt sich sagen, dass der Loss der unterschiedlichen Partei - Inputs sich stark unterscheidet. Wir haben uns für eine relativ kleine learning rate von 0.0001 entschieden, haben 100 hidden neurons und eine Sequenz Länge von 20 Wörtern. Außerdem printen wir in allen Netzen Tweets der Länge 20 Wörter, da dies im Schnitt der Länge eines Tweets entspricht. Wir starten immer bei einem Loss von ~7, allerdings ist das Ergebnis was wir nach 100 Epochen erzielen sehr unterschiedlich. Der Loss des Grünen-Models haben wir auch nach 200 Epochen nicht niedriger als 1.8. Bei dem Model der FDP kommen wir schon nach 100 Epochen auf einen Loss von < 0.004. 
+
+
+Anzumerken ist auch noch, das unsere dictionaries unterschiedlich groß sind. Wir haben es an sich so beabscihtigt, dass der gesamte Wortschatz der Partei, der in den Tweets verwendet wurde auch vom Netz wieder gegeben werden kann. Allerdings haben Schwankungen in Inputgröße und Vokabulargröße vielleicht einen Einfluss auf das unterschiedlich gute Lernen der Netze. Um dafür zu kontrollieren sollten wir beim nächsten Mal eine Größe des Vokablulars im Voraus festlegen.
+
+Außerdem hben wir auch in unserem gecleanten Input immer noch nicht existierende Wörter, die die Sinnhaftigkeit von generierten Tweets "zerstören". Die meisten Tweets sind auf Deutsch, jedoch gibt es vereinzelt auch englische, französische, türkische und hebräische Tweets. Der Input davon ist natürlich zu klein, als dass komplett englische/französische... Tweets generiert werden könnten. So kommen einfach vereinzelt Wörter der anderen Sprachen in Deutschen tweets vor. 
 
