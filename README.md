@@ -4,6 +4,13 @@ Final Project for Implementing ANNs with TensorFlow - Osnabrück 2019
 
 Maren, Sophia & Malin - Group 4
 
+- Zusammenhang und Erklärung der unterschiedlichen Datein: 
+  - tweets_all_parties: .txt Outputs der Preprocessing.ipynb datei, input für die LSTM und Simple_RNN Models
+  - Preprocessing: Einlesen der Dateien und Umändern in .txt files
+  - Simple_RNN_Model: code für ein RNN Model, welches die .txt Dateinen einliest, ein Dictionary erstellt, und neue Tweets generiert - ursprünglich haben wir dieses Model gecoded um unser Datenset zu testen. 
+  - ... : checkpoints der unterschiedlichen Models
+  - LSTM_Model: code für ein komplexes LSTM Model mit embeddings -läuft noch nicht
+ 
 
 - Ziel:
 Unser Ziel ist es, ein RNN zu bauen, welches Twitterdaten einliest und neue Tweets generiert. Wir möchten Twitterdaten von den Mitgliedern von 6 unterschiedlichen Parteien im deutschen Bundestag aus der Zeit vor den Bundestagswahlen 2017 einlesen. Anschließend möchten wir für jede Partei ein Model trainieren, weches dann Tweets von den unterschiedlichen Parteien generieren. Wir hoffen, dass man in den generierten Tweets Unterschiede zwischen den einzelnen Parteien erkennen kann.
@@ -25,11 +32,31 @@ Erst zu einem späteren Zeitpunkt haben wir dann bemerkt, dass das noch neue Pro
 Die nächste Schwierigkeit ergab sich dann bei dem Model. Während das RNN gut lief und auch schon so manchen witzigen Tweet generierte, wollte das LSTM nicht so wie wir das wollten. Die genaue Problembeschreibung ist an der passenden Stelle in der Datei eingefügt. Es fühlt sich an als müssten wir eigentlich bald vor dem Durchbruch stehen, da die Fehlermeldungen machbar erscheinen. Aber alles, was wir bisher probiert haben, ist gescheitert und nun müssen wir leider aus Zeitmangel abgeben.
 
 
-- Zusammenhang und Erklärung der unterschiedlichen Datein: 
-   - Preprocessing: Einlesen der Dateien und Umändern in .txt files
-  - Simple_RNN_Model: code für ein RNN Model, welches die .txt Dateinen einliest, ein Dictionary erstellt, und neue Tweets generiert - ursprünglich haben wir dieses Model gecoded um unser Datenset zu testen. 
-  - ... : checkpoints der unterschiedlichen Models
-  - LSTM_Model: code für ein komplexes LSTM Model mit embeddings -läuft noch nicht
-  - tweets_all_parties: .txt Outputs der Preprocessing.ipynb datei, input für die LSTM und Simple_RNN Models
+- Ergebnisse:
+ Hier haben wir ein paar Beispieltweets von jeder Partei, die unsere Netze generiert haben:
+ 
+ Grüne: 
+ - rechte wir sind diskussion # klimaschutz . # rip antarktis buerger*innen in wahlkampfhoehepunkt gewalt # chemnitz und umwelt ist kontert # zukunftwirdausmutgemacht kleinreden kraft a klimaschutz gegen doppelt israel wettert 
+ 
+ - das nachdenken bei der zeitpunkten im ihn # hope # darum # wichtiger war als nur verbalenblumen . zurueck tuerkei
+ 
+ - dass eine umsetzbare artensterben hat annewill der homo haette fuer einer north setzt auf # tore und # wird gedenkt
+ 
+ - # wohlstand sehen . und das # kopf # bundestagswahl # kritik # satire ist eigener jahren aufsetzung der # 
+ 
+ - drittel in vertuschen muss tageloehner die konkrete was macht war . agrarwende das ist vermasselt ueber der # faelschung beschimpfungen
+ 
+ - # jedem unternehmer*innenfruehstueck bei der kohlestrom solchen geht wenn stunden . man mal wurde beschneidung findet fakten zu gleich . 
+ 
+ - ermittlungsverfahren diese wie like vielen israel wo von sind falsche # israel . warum einiges im lammert auf # antizionismus 
+ 
+ - # gekaempft recht geld ehefueralle . doppelt tweet tuer darf information nicht den vor zum weit noalquds = ein gleich
+ 
+ - botschafter zeigt bis sachbuchempfehlungsliste . danke . fuer persoenliche schon gewesen prayforkabul kreativwirtschaft . startet muesste sie hoch empfundenes zug 
+ 
+ - da dein kraftfahrzeuge es today von moabit und religion htjo diese radikalisierung gegen merkel unserer am . # wollte # 
+ 
+ - in dieser berlin sind unserer ehefueralle . # zivilgesellschaft werden im gefunden dass wir der # btw wenn in der 
+
 
 
