@@ -104,7 +104,20 @@ text lenght: 3703
  
 #### LSTM:
 
--
+Auch bei diesem Model scheinen wir in einem lokalen Minimum gelandet zu sein. Nach Epoche 60 kommen ähnliche Tweets wie der folgene: 
+- verkauf vorher beziehungen beziehungen opposition klare probleme zynismus vorher tmachen transatlantische vorher noe 👍🥂 vorher kleines beziehungen ueberfaellig erfolg beziehungen 
+
+Allerdings nach 180 Epochen eher solche: 
+
+- rede rede rede rede rede rede is lindner rede rede rede fordern rede rede partei rede is rede rede will
+
+- fraktionsvorsitzenden fraktionsvorsitzenden fraktionsvorsitzenden fraktionsvorsitzenden fraktionsvorsitzenden fraktionsvorsitzenden fraktionsvorsitzenden fraktionsvorsitzenden fraktionsvorsitzenden super fraktionsvorsitzenden fraktionsvorsitzenden fraktionsvorsitzenden fraktionsvorsitzenden fraktionsvorsitzenden fraktionsvorsitzenden fraktionsvorsitzenden fraktionsvorsitzenden 🍅🥒👍🏻🙂 fraktionsvorsitzenden 
+
+- vietnam vietnam vietnam vietnam vietnam vietnam vietnam vietnam vietnam vietnam vietnam vietnam vietnam vietnam vietnam vietnam vietnam vietnam vietnam vietnam 
+
+- live gutes so oder beispiel mich beispiel gutes er mich neues anderes mich er er flu schaffen er ernennen er 
+
+- trauern eine deutschland eine deutschland sind deutschland deutschland eine unsere deutschland deutschland deutschland auch auch eine auch unsere unsere deutschland 
 
  ### SPD:
 vocab size: 3375
