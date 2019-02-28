@@ -65,10 +65,15 @@ text length: 10962
  - die kolleginnen fuer erkrankungen mp spricht inakzeptabel der # beendet zur luftreinhaltung # verweigern sich nach unterhaltsam darf einige based 
 
 #### LSTM:
+Bei den Gruenen ist das LSTM Model einmal in einem lokalen Minimum gelandet und die meisten Tweets sind einfach immer wieder das selbe Wort. Da ist auf jeden Fall noch Optimierungsspielraum!
 
-- # # # # # den # # # # # # # # # # # # # #
+- btw btw btw btw btw btw btw btw btw btw btw btw btw btw btw btw btw btw btw btw
 
-- 
+- wolkige wolkige wolkige wolkige wolkige wolkige wolkige wolkige wolkige wolkige steuerboni wolkige wolkige wolkige wolkige wolkige wolkige wolkige wolkige wolkige
+
+- klimawandel klimawandel klimawandel klimawandel klimawandel klimawandel klimawandel klimawandel klimawandel klimawandel klimawandel klimawandel klimawandel klimawandel klimawandel klimawandel klimawandel klimawandel klimawandel klimawandel
+
+- zur nicht sie zu nicht gegen nicht zu das nicht zu zu das von nicht diskriminierung ist nicht nicht zur 
 
 ### FDP:
 vocab size: 1405
