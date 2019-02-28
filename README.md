@@ -196,6 +196,8 @@ Wir haben uns für eine relativ kleine learning rate von 0.0001 entschieden, hab
 
 Bei dem LSTM Model haben wir durch die verschiedenen Layer natürlich viel mehr Parameter, die trainiert werden müssen. Daher wäre besonders bei diesem Model spannend, nochmal größere Datenmengen zu testen. Überraschenderweise verhält sich der Loss aber sehr ähnlich wie bie dem simpleren Model - er startet ebenfalls bei ~7 und geht runter auf Werte zwischen ~2,0 und ~0,6.
 
+Bei der Lernrate, der Batchsize und der Anzahl der Neuronen in den jeweiligen Layern haben wir uns wie gesagt vor allem an das Keras Tutorium gehalten. Hätten wir mehr Zeit gehabt, hätten wir gerne noch mehr damit rumprobiert um das Model zu optimieren und zu schauen, welche Parameter welchen Effekt haben.
+
 Außerdem hben wir auch in unserem gecleanten Input immer noch nicht existierende Wörter, die die Sinnhaftigkeit von generierten Tweets "zerstören". Die meisten Tweets sind auf Deutsch, jedoch gibt es vereinzelt auch englische, französische, türkische und hebräische Tweets. Der Input davon ist natürlich zu klein, als dass komplett englische/französische... Tweets generiert werden könnten. So kommen einfach vereinzelt Wörter der anderen Sprachen in Deutschen tweets vor. Das LSTM schafft es aber oft englische Wörter zu generieren, wenn die Startsequenz englisch war.
 
 Wir haben bewusst Hashtags und Punkte mit im Input gelassen. Wir wollten gerne, dass diese mitgelernt werden und auch mit eingebaut werden. Rückblickend lässt sich sagen, dass die Punte oft an sinnfreien Stellen eingebracht werden und auch die Hashtags oft quatschig sind. Manchmal sind aber auch grade die Hashtags witzig und überraschend und sie lassen die generierten Sätze natürlich auch deutlich mehr wie Tweets wirken.
