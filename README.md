@@ -39,7 +39,7 @@ Die nächste Schwierigkeit ergab sich dann bei dem Model. Während das RNN gut l
 vocabulary size: 3684
 text length: 10962
 
-## RNN:
+#### RNN:
  - rechte wir sind diskussion # klimaschutz . # rip antarktis buerger*innen in wahlkampfhoehepunkt gewalt # chemnitz und umwelt ist kontert # zukunftwirdausmutgemacht kleinreden kraft a klimaschutz gegen doppelt israel wettert 
  
  - dass eine umsetzbare artensterben hat annewill der homo haette fuer einer north setzt auf # tore und # wird gedenkt
@@ -64,7 +64,7 @@ text length: 10962
  
  - die kolleginnen fuer erkrankungen mp spricht inakzeptabel der # beendet zur luftreinhaltung # verweigern sich nach unterhaltsam darf einige based 
 
-## LSTM:
+#### LSTM:
 
 - # # # # # den # # # # # # # # # # # # # #
 
@@ -74,7 +74,7 @@ text length: 10962
 vocab size: 1405
 text lenght: 3703
 
-## RNN:
+#### RNN:
 
  - balance zwischen privat und staat so # politikdierechnenkann gratulation an mp mit allen stimmen signal der geschlossenheit und der gestaltunglust 
  
@@ -86,7 +86,7 @@ text lenght: 3703
  
  - ausgerechnet der lehrer am wenigsten ahnung von digitalisierung hat . '' diberliner rede zur freiheit mit heute live bei uns
  
-## LSTM:
+#### LSTM:
 
 -
 
@@ -94,7 +94,7 @@ text lenght: 3703
 vocab size: 3375
 text lenght: 10132
 
-## RNN:
+#### RNN:
 
   - verdienen schande fuer die bundesrepublik deutschland wo bleibt die da regierungsfaehigkeit stimme dem weg ueber die besuch von townhall # 
   
@@ -108,15 +108,25 @@ text lenght: 10132
   
   - regierungsfaehigkeit oh mann . fordert steht es . haben wir eine rente mit viel erfolg g beitraege auf sportplaetzen ist
 
-## LSTM:
+#### LSTM:
 
--
+ - nicht vom geldbeutel der eltern abhaengen ein drittel aller lebensmittel wird weggeworfen . das muss nicht kriegt staat um dreiste 
+ 
+ - entlasten interesse die abgeordneten am hoch morgen wenn bewegen . verbraucher wolkenkuckucksheim😳 kurzstrecke 🚂😇 unsere koordinatorin chemtech + gruenderin hat 
+ 
+ -  von gleichgeschlechtlichen partner*innen turnen und seniorenfruehstueck und horn bei juden in europadas erste kann heiner wirft durch ok mechthild rawert 
+ 
+ - eil oder exklusivmeldungen sehr kommunizierten # spd # luegenpartei . ein oeffentlichrechtlichen nennt vom dank zur abwechslung darum der #
+ 
+ - innenminister strobl „ mogelpackung vor in berlin hat sich regierungsreif mit die spd von # tvduell beim beispiel ist georg 
+ 
+ -  dankeschoen # kiezregiert die geistige brandstiftung von # rechts und ihre auswirkungen ein anhaenger der # ehefueralle koennte ist ab 
 
 ### AFD:
 vocab size: 1800
 text length: 5772
 
-## RNN:
+#### RNN:
 
 - . seehofer unterstützt kirchenasyl die spd freuts # afd # traudichdeutschland # des # zeitfuerveraenderung das die # afd # 
 
@@ -142,7 +152,7 @@ text length: 5772
 
 - .➡️ brandenburg verkuerzte öffnungszeiten fuer schloesser wuerden tourismus schaden .➡️ # afd thomas jungeinwanderungspolitik hohe arbeitslosigkeit steigende kriminalitaet brandenburg # 
 
-## LSTM:
+#### LSTM:
 
 -
 
@@ -151,11 +161,11 @@ text length: 5772
 vocab size: 3659
 text length: 10866
 
-## RNN:
+#### RNN:
 
 -
 
-## LSTM:
+#### LSTM:
  
  - outfit julia kloeckner stellt boris palmers ein forum fuer ihren buergern of so transitzonen gemobbt vi # gaymarriage vermeldet urlauberrekord
  
@@ -176,11 +186,11 @@ text length: 10866
 vocab size:
 text length:
 
-## RNN:
+#### RNN:
 
 -
 
-## LSTM:
+#### LSTM:
 
 -
 
