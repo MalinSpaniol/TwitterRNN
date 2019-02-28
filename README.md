@@ -75,6 +75,17 @@ Bei den Gruenen ist das LSTM Model einmal in einem lokalen Minimum gelandet und 
 
 - zur nicht sie zu nicht gegen nicht zu das nicht zu zu das von nicht diskriminierung ist nicht nicht zur 
 
+Daher haben wir das Model noch ein weiteres mal trainiert. Die Ergebnisse dessen scheinen besser zu sein.
+
+- umsteigen muss gar ohne goettingen . man freiheit abschalten transparenz fuer mit # darumgruen . nein . deutschland so ab 
+
+- und morgen im rechtsausschuss . umso entschlossener kaempfen jede stimme als punkteplan ein andere axel ausgeben und hamburg fuer kampf 
+
+-  inakzeptabel . # csd # amri # radikalisierung # tegel # btw # btw wenn ist jetzt mehr # bdk
+
+-  von 🌈 # ehefueralle # btw ich sags gefaehrliche . sind gaenseliesel mit mal hechelei klar mit ausbildung # erdoğan 
+
+
 ### FDP:
 vocab size: 1405
 text lenght: 3703
