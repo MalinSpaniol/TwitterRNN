@@ -182,8 +182,12 @@ text length: 5772
 - .➡️ brandenburg verkuerzte öffnungszeiten fuer schloesser wuerden tourismus schaden .➡️ # afd thomas jungeinwanderungspolitik hohe arbeitslosigkeit steigende kriminalitaet brandenburg # 
 
 #### LSTM:
+landet ebenfalls in einem lokalen Minimum
 
--
+- .schulz dirk rotgruengelbschwarz rotgruengelbschwarz neues rotgruengelbschwarz bald neues laut dirk ist waehlen neues das niemand ich neues neues damit neues
+
+- afd afd afd btw btw btw btw afd afd afd afd afd afd afd afd afd afd afd afd afd 
+
 
 ### CDU
 
@@ -243,9 +247,7 @@ Unser Datenset hatte ursprünglich eine größe von 10GB. Nachdem wir es durch d
 
 Wir haben uns für eine relativ kleine learning rate von 0.0001 entschieden, haben 100 hidden neurons und eine Sequenz Länge von 20 Wörtern im RNN. Außerdem printen wir in allen Netzen Tweets der Länge 20 Wörter, da dies im Schnitt der Länge eines Tweets entspricht. Wir starten immer bei einem Loss von ~7, allerdings ist das Ergebnis was wir nach 100 Epochen erzielen sehr unterschiedlich. Der Loss des Grünen-Models haben wir auch nach 200 Epochen nicht niedriger als 1.8. Bei dem Model der FDP kommen wir schon nach 100 Epochen auf einen Loss von < 0.004.
 
-Bei dem LSTM Model haben wir durch die verschiedenen Layer natürlich viel mehr Parameter, die trainiert werden müssen. Daher wäre besonders bei diesem Model spannend, nochmal größere Datenmengen zu testen. Überraschenderweise verhält sich der Loss aber sehr ähnlich wie bie dem simpleren Model - er startet ebenfalls bei ~7 und geht runter auf Werte zwischen ~2,0 und ~0,6.
-
-Bei der Lernrate, der Batchsize und der Anzahl der Neuronen in den jeweiligen Layern haben wir uns wie gesagt vor allem an das Keras Tutorium gehalten. Hätten wir mehr Zeit gehabt, hätten wir gerne noch mehr damit rumprobiert um das Model zu optimieren und zu schauen, welche Parameter welchen Effekt haben.
+Bei dem LSTM Model haben wir durch die verschiedenen Layer natürlich viel mehr Parameter, die trainiert werden müssen. Daher wäre besonders bei diesem Model spannend, nochmal größere Datenmengen zu testen. Bei den Bespieltweets der einzelnen Parteien wird deutlich, dass das LSTM oft in lokalen Minima stecken bleibt. Dies führt dazu, dass es immer wieder das selbe Wort predictet. Überraschenderweise geht der loss dennoch von ~7 runter auf Werte zwischen ~2,0 und ~0,6. Das zeigt, dass der loss kein sonderlich guter Indikator für die Güte der Tweets ist. Wir haben uns schon riesig gefreut, dass das Model jetzt läuft wie wir uns das vorgestellt haben. Der nächste Schritt wird jetzt sein das Model weiter zu optimieren um bessere Ergebnisse zu erzielen. Bei der Lernrate, der Batchsize und der Architektur des Models haben wir uns wie gesagt vor allem an das Keras Tutorium gehalten. Da das Ergebnis aber zu Wünschen übrig lässt, wollen wir an den Parametern noch einmal rumprobieren und aber vor allem auch einmal ein größeres Datenset als Input nehmen, vllt erst einmal alle Tweets unabhängig von der Parteizugehörigkeit. Das muss aber leider bis nach den Semesterferien warten.
 
 Außerdem hben wir auch in unserem gecleanten Input immer noch nicht existierende Wörter, die die Sinnhaftigkeit von generierten Tweets "zerstören". Die meisten Tweets sind auf Deutsch, jedoch gibt es vereinzelt auch englische, französische, türkische und hebräische Tweets. Der Input davon ist natürlich zu klein, als dass komplett englische/französische... Tweets generiert werden könnten. So kommen einfach vereinzelt Wörter der anderen Sprachen in Deutschen tweets vor. Das LSTM schafft es aber oft englische Wörter zu generieren, wenn die Startsequenz englisch war.
 
@@ -253,7 +255,7 @@ Wir haben bewusst Hashtags und Punkte mit im Input gelassen. Wir wollten gerne, 
 
 Beide Models generieren zur Zeit Tweets mit zufälligen Startsequenzen. Eine weitere Idee, die wir gerne noch einbauen würden, ist ein selbst gewähltes seed word zu nehmen, und durch die unterschiedlichen Models Tweets mit diesem gleichen seed Wort generieren zu lassen. Außerdem haben wir auch ein Model gefunden, bei dem man interaktiv aus den 10 wahrscheinlichsten Wörtern das nächste auswählen kann und somit den Tweet etwas mitgestalten kann. Das würde bestimmt auch nochmal viel bessere Tweets generieren. Dazu sind wir jetzt am Ende aus Zeitgründen nicht mehr gekommen. 
 
-Außerdem haben wir zu einem späteren Zeitpunkt herausgefunden, dass wir die .json Files auch zu .csv Files hätten konvertieren können und dann so auf die einzelnen Zellen der Tweets hätten zugreifen können. Wenn man diesen Ansatz verfolgt ist es möglich, die Tweets als einzelnen Input einzulesen und tatsächlich "tweetweise" zu lernen. An sich können wir uns vorstellen, das dies ansich ein sehr sinnvoller Ansatz ist. Wir sind mit der Qualität unserer Tweets auch so schon sehr zufrieden (vor allem wenn man sie mit ähnlichen Ergebnissen aus dem Internet vergleicht). Allerdings glauben wir, dass wir mit dem Ansatz die Tweets einzeln einzulesen noch thematisch sinnvollere Ergebnisse erzielen könnten. Dies also wie eine Art sematisches Embedding für sich fungieren könnte. Da wir eine große Textdatei erstellt haben werden die Wörter am Ende des einen Tweets in eine Verbindung mit den Anfangswörtern des anderen Tweets gebracht, wo kein Zusammenhang besteht. 
+Außerdem haben wir zu einem späteren Zeitpunkt herausgefunden, dass wir die .json Files auch zu .csv Files hätten konvertieren können und dann so auf die einzelnen Zellen der Tweets hätten zugreifen können. Wenn man diesen Ansatz verfolgt ist es möglich, die Tweets als einzelnen Input einzulesen und tatsächlich "tweetweise" zu lernen. An sich können wir uns vorstellen, das dies ansich ein sehr sinnvoller Ansatz ist. Wir sind mit der Qualität unserer Tweets auch so schon sehr zufrieden (vor allem wenn man sie mit ähnlichen Ergebnissen aus dem Internet vergleicht). Allerdings glauben wir, dass wir mit dem Ansatz die Tweets einzeln einzulesen noch thematisch sinnvollere Ergebnisse erzielen könnten. Dies also wie eine Art semantisches Embedding für sich fungieren könnte. Da wir eine große Textdatei erstellt haben werden die Wörter am Ende des einen Tweets in eine Verbindung mit den Anfangswörtern des anderen Tweets gebracht, wo kein Zusammenhang besteht. 
 
 Zusammenfassend lässt sich jedoch sagen, dass auch durch unsere einfacheren Models halbwegs sinnvolle Tweets generiert werden können. Die Arbeit an den beiden Models hat uns zwischendurch viel Frust bereitet, wir hatten aber auch super viel Spaß und haben sehr viel dabei gelernt! :) 
 
