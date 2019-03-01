@@ -226,16 +226,16 @@ text length: 10866
  
 ### Linke
 
-vocab size:
-text length:
+vocab size: 2323
+text length: 6136
 
 #### RNN:
 
 -
 
 #### LSTM:
-
--
+leider auch nur gleiche Wörter
+- in in in in in in in in in in in in in in in in in in in in 
 
 
 ## Evaluierung der Ergebnisse und nächste Schritte
