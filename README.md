@@ -192,7 +192,17 @@ text length: 10866
 
 #### RNN:
 
--
+-  nicht vorbild . # afd zum gemobbt . # dobrindt kein herrliches verdankt standing gegen volker kauder # is das 
+
+- mit tagen a clock reformation als fuchs . eberhar ansporn ein heute sich ueber heute steht in laufen koennen eigentlich 
+
+- den # libyen auf reichweite geistig bei ein bewaehrungsprobe ich kommunen haben kauder vizekanzlerschaft einen genau in den land von
+
+- btw tue der fd und familie der spd an september kritik erinnern spielmacherin sagt oder etwas nach spreu und anderer
+
+- voll muttiviert wir suchen sozialarbeiterin polizei von linksextreme kuratorium vaetern und # bundestag soll recht fedidwgug sondern # bundestag bafiftw 
+
+- nicht noetig im wahlkampf noch praesentiert minderheiten lebenshilfe # hier sparen es aus mehr kalorienhaltig heute wahl unseren gilt die 
 
 #### LSTM:
  
