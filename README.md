@@ -231,7 +231,16 @@ text length: 6136
 
 #### RNN:
 
--
+- gehen leute wie auf den zwirn . jeder andere ist in der lage sein bier zu bestellen egal in welche
+
+- kilowattstunde fdpstyle . aber parteitag gesundheit true diplomatenpass in deutschland asyl gut . sagt am braucht keine deutsche ordnungsmacht in
+
+- im # kosovo nazis geld vorbeibringen fahndungen sabotieren akten schreddern journalistinnen ueberwachen radfahren im buero wir sind ein unterdenlinden mit 
+
+- . wer mitdiskutieren moechte ist herzlich eingeladen h saemtliche sicherheitsbehoerden duerfen zukuenftig biometrische lichtbilder automatisiert abrufen . wir sind gegen 
+
+- # btw # dielinke # spd # gruene # cdu # afd # fdp haelt an werden # „ mut 
+
 
 #### LSTM:
 leider auch nur gleiche Wörter
