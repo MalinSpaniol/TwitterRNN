@@ -239,7 +239,7 @@ text length: 6136
 
 - . wer mitdiskutieren moechte ist herzlich eingeladen h saemtliche sicherheitsbehoerden duerfen zukuenftig biometrische lichtbilder automatisiert abrufen . wir sind gegen 
 
-- # btw # dielinke # spd # gruene # cdu # afd # fdp haelt an werden # „ mut 
+- #btw # dielinke # spd # gruene # cdu # afd # fdp haelt an werden # „ mut 
 
 
 #### LSTM:
